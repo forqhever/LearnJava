@@ -1,4 +1,4 @@
-package main.java.com.forqhever.learnjava.proxy;
+package com.forqhever.learnjava.proxy;
 
 public interface Executable {
 
