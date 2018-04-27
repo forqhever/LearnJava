@@ -12,7 +12,7 @@ public class DynamicProxyFactory {
         this.target = target;
     }
 
-    public Object getProxyInstance() {
+    public Object newProxyInstance() {
         return Proxy.newProxyInstance(target.getClass().getClassLoader(),
                 target.getClass().getInterfaces(), new DynamicHandler());
     }

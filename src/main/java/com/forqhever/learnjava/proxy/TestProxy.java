@@ -10,13 +10,13 @@ public class TestProxy {
 
     private static void dynamicProxy() {
         Executable executable = new ExecutableImpl();
-        Executable executableProxy = (Executable)new DynamicProxyFactory(executable).getProxyInstance();
+        Executable executableProxy = (Executable)new DynamicProxyFactory(executable).newProxyInstance();
         executableProxy.execute();
     }
 
     private static void cglibProxy() {
         Executable executable = new ExecutableImpl();
-        Executable executableProxy = (Executable)new CglibProxyFactory(executable).getProxyInstance();
+        Executable executableProxy = (Executable)new CglibProxyFactory(executable).newProxyInstance();
         executableProxy.execute();
     }
 

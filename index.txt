@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Location: http://www.baidu.com
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"129-1456125361109"
+Last-Modified: Mon, 22 Feb 2016 07:16:01 GMT
+Content-Type: text/html
+Content-Length: 129
+Date: Mon, 22 Feb 2016 08:08:32 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+</head>
+<body>
+Congratulations! The WebServer start SUCCESSFULLY!
+</body>
+</html>

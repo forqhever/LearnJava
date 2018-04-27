@@ -14,7 +14,7 @@ public class CglibProxyFactory {
         this.target = target;
     }
 
-    public Object getProxyInstance() {
+    public Object newProxyInstance() {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(target.getClass());
         enhancer.setCallback(new DynamicInterceptor());
